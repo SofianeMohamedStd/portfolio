@@ -8,22 +8,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style1.css">
-    
+
 
 
 </head>
-
+<header>
+    <div id="toggleIcon" onclick="menuToggle()"></div>
+    <div id="menu-overlay">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</header>
 
 <body>
-    <div id="competance">
-    <div class="container cc-competance">
+    <section classe="section" id="competance">
+        <div class="container cc-competance">
             <div class="h4 text-center mb-4 title">COMPÉTENCES</div>
-           
+
             <div class="card">
                 <div class="row">
                     <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                         <div class="card-body cc-competance-header">
-                            <div class="h5">Langages</div>
+                            <h5>Langages</h5>
                         </div>
                     </div>
                     <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -42,7 +53,7 @@
                 <div class="row">
                     <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                         <div class="card-body cc-competance-header">
-                            <div class="h5">Gestion BDD</div>
+                            <h5>Gestion BDD</h5>
                         </div>
                     </div>
                     <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -60,14 +71,34 @@
                 <div class="row">
                     <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                         <div class="card-body cc-competance-header">
-                            <div class="h5">Outils de développement</div>
+                            <h5>Outils de développement</h5>
                         </div>
                     </div>
                     <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                         <div class="card-body text-center">
                             <img src="assets/img/vscode.png" alt="1" height="100" width="100">
                             <img src="assets/img/github.png" alt="2" height="100" width="100">
-                            <img src="assets/img/xamp.png" alt="2" height="100" width="100">
+                            <img src="assets/img/xamp.png" alt="3" height="100" width="100">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body cc-competance-header">
+                            <h5>Bureautique & Multimédia</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body text-center">
+                            <img src="assets/img/word.png" alt="1" height="100" width="100">
+                            <img src="assets/img/excel.png" alt="2" height="100" width="100">
+                            <img src="assets/img/powerpoint.png" alt="3" height="100" width="100">
+                            <img src="assets/img/latex.png" alt="4" height="100" width="100">
+                            <img src="assets/img/photoshop.png" alt="5" height="100" width="100">
 
 
                         </div>
@@ -76,10 +107,65 @@
             </div>
 
         </div>
-    </div>
-    <div id="eduction">
+    </section>
 
-    </div>
+    <section class="section" id="eduction">
+        <div class="container cc-competance">
+            <div class="h4 text-center mb-4 title">ÉDUCATION</div>
+
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body cc-competance-header">
+                            <p>2019</p>
+                            <h6>Master</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body">
+                            <h5>Systèmes Informatique</h5>
+                            <p class="category">Université 08 mai 1994 (Algérie)</p>
+                            <p><span><strong>Projet De Fin d'Étude de Master II :</strong></span> Migration des Données SQL vers des Données NoSQL.
+                                Le but est de proposer une méthode de migration automatique de données SQL des
+                                bases de données objet-relationnelles aux données NoSQL plus précisément les
+                                données orientées document. ainsi la mise en œuvre d’un outil qui qui implémente
+                                cette méthode.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body cc-competance-header">
+                            <p>2017</p>
+                            <h6>Licence</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body text-center">
+                            <div class="card-body">
+                                <h5>Ingénierie des Systèmes d’information et de logiciels</h5>
+                                <p class="category">Université 08 mai 1994 (Algérie)</p>
+                                <p><span><strong>Projet De Fin d'Étude de Licence :</strong></span> Mise en place du processus recherche du travail dans
+                                    une agence de conseil
+                                    Le but est de concevoir un système d’information d’aide à la décision dédié aux
+                                    chercheurs d’emploi et aux entreprises qui cherche des nouveaux ressources humaines
+                                    Le système permet également la création d’un espace de communication entre les deux
+                                    ainsi que la filtration des recherche selon les compétences et le savoir être.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <script src="./assets/js/app1.js"></script>
 </body>
 
 </html>
